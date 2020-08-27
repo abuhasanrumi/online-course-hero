@@ -1,0 +1,60 @@
+.header {
+  background:#F1C40F;
+}
+.search {
+  opacity: 0.8;
+}
+
+.course {
+  animation: courseAnime 0.4s ease-out;
+}
+
+
+.enroll-btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background: #ec5252;
+  color: #fff;
+}
+
+.enroll-btn:hover {
+  background: red;
+}
+
+.wishlist-btn {
+  outline: none;
+  border: none;
+  background: none;
+  color: rgb(233, 13, 13);
+}
+.wishlist-btn:hover {
+  color: #f1c40f;
+}
+
+.enrolled {
+  background: rgba(255, 255, 255, 0.829);
+  color: #000;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+.sub-course {
+  object-fit: contain;
+  background: #F1C40F;
+  border-radius: 5px;
+  display: flex;
+  color: #fff;
+  overflow: hidden;
+}
+
+.sub-course img {
+  width: 20%;
+  margin-right: 5px;
+}
+.remove-button {
+  border: none;
+  background: tomato;
+  color: white;
+  padding: 2px 6px;
+}
